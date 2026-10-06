@@ -1,0 +1,312 @@
+body {
+  background:
+    radial-gradient(circle at 80% 10%, rgba(31, 110, 255, 0.14), transparent 28%),
+    #070b14;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(7, 11, 20, 0.9);
+  border-bottom: 1px solid #182235;
+  backdrop-filter: blur(10px);
+}
+
+.nav-container {
+  width: min(1100px, 90%);
+  height: 72px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #4da3ff;
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: #aebbd0;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #4da3ff;
+}
+
+.page {
+  width: min(1100px, 90%);
+  margin: auto;
+}
+
+.hero {
+  min-height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.eyebrow {
+  color: #4da3ff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: clamp(44px, 8vw, 78px);
+  line-height: 1;
+  margin-bottom: 16px;
+  letter-spacing: -3px;
+}
+
+.hero h2 {
+  color: #b8c7dd;
+  font-size: clamp(22px, 4vw, 34px);
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.hero-text {
+  color: #8e9db4;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 650px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.button {
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.button.primary {
+  background: #267cff;
+  color: white;
+}
+
+.button.primary:hover {
+  background: #1767dc;
+  transform: translateY(-2px);
+}
+
+.button.secondary {
+  border: 1px solid #2a3a52;
+  color: #dce8f8;
+}
+
+.button.secondary:hover {
+  border-color: #4da3ff;
+  color: #4da3ff;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-heading h2,
+.skills-section h2 {
+  font-size: 36px;
+  margin-bottom: 28px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.project-card,
+.about-card,
+.contact-card {
+  background: #0d1421;
+  border: 1px solid #1b2a40;
+  border-radius: 10px;
+}
+
+.project-card {
+  padding: 25px;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  border-color: #267cff;
+}
+
+.project-number {
+  color: #4da3ff;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.project-card h3 {
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.project-card p {
+  color: #8e9db4;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.project-card a {
+  color: #4da3ff;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.content-section {
+  padding: 100px 0;
+  max-width: 850px;
+  margin: auto;
+}
+
+.content-section h1 {
+  font-size: clamp(40px, 7vw, 60px);
+  margin-bottom: 35px;
+}
+
+.about-card {
+  padding: 30px;
+}
+
+.about-card p {
+  color: #aebbd0;
+  line-height: 1.8;
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+.about-card p:last-child {
+  margin-bottom: 0;
+}
+
+.skills-section {
+  margin-top: 65px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill {
+  padding: 10px 17px;
+  border: 1px solid #26466c;
+  border-radius: 6px;
+  background: #0b192c;
+  color: #72b8ff;
+}
+
+.contact-intro {
+  color: #8e9db4;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+  max-width: 650px;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.contact-card {
+  padding: 23px 25px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: 0.2s ease;
+}
+
+.contact-card:hover {
+  border-color: #267cff;
+  transform: translateX(4px);
+}
+
+.contact-label {
+  color: #4da3ff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contact-card strong {
+  color: #dce8f8;
+  font-size: 16px;
+  word-break: break-word;
+}
+
+@media (max-width: 800px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: 75vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-container {
+    height: 65px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .hero h1 {
+    letter-spacing: -2px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button {
+    width: 150px;
+    text-align: center;
+  }
+
+  .content-section {
+    padding: 70px 0;
+  }
+}
