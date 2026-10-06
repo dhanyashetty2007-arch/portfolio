@@ -10,9 +10,9 @@ function Contact() {
         </p>
 
         <div className="contact-grid">
-          <a className="contact-card" href="mailto:your-email@example.com">
+          <a className="contact-card" href="mailto:dhanyashetty2007@gmail.com">
             <span className="contact-label">EMAIL</span>
-            <strong>your-email@example.com</strong>
+            <strong>dhanyashetty2007@gmail.com</strong>
           </a>
 
           <a
@@ -22,7 +22,7 @@ function Contact() {
             rel="noreferrer"
           >
             <span className="contact-label">GITHUB</span>
-            <strong>github.com/yourusername</strong>
+            <strong>github.com/dhanyashetty2007-arch</strong>
           </a>
 
           <a

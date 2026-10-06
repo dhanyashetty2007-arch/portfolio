@@ -23,7 +23,7 @@ function Home() {
     <div className="page">
       <section className="hero">
         <p className="eyebrow">HELLO, I'M</p>
-        <h1>Your Name</h1>
+        <h1>Dhanya Shetty</h1>
         <h2>Aspiring Software Developer</h2>
         <p className="hero-text">
           I enjoy coding, learning new technologies, and building projects

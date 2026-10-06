@@ -17,7 +17,7 @@ function About() {
 
         <div className="about-card">
           <p>
-            I'm an aspiring software developer who enjoys coding and
+            I'm an Dhanya Shetty ,aspiring software developer who enjoys coding and
             experimenting with technology. I like learning how things work,
             building small projects, and improving my skills by actually
             creating things.
